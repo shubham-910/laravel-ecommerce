@@ -40,19 +40,19 @@ Welcome to my Laravel eCommerce platform. This application provides a comprehens
 To run this project locally, follow the steps below:
 
 1. **Clone the repository**:
-   ```bash
+   ***clone the repo from the github:
    git clone https://github.com/shubham-910/laravel-ecommerce.git
 
-   ```bash
+   ***Visit the cloned directory:
    cd laravel-ecommerce
-   
-   ```bash
+
+   ***To install the dependencies:
    composer install
 
-   ```bash
+   ***To copy .env file:
    cp .env.example .env
 
-   ```bash
+   ***To connect with the database, you can add more configurations if you want. (Cache)
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -60,13 +60,13 @@ To run this project locally, follow the steps below:
    DB_USERNAME=your_db_username
    DB_PASSWORD=your_db_password
 
-   ``bash
+   ***To generate key for the project:
    php artisan key:generate
 
-   ```bash
+   ***To migrate tables in the database:
    php artisan migrate
 
-   ```bash
+   ***To make port available for the project:
    php artisan serve
 
 **Open any browser and write http://127.0.0.1:8000 and hit enter your site will be up and running**
